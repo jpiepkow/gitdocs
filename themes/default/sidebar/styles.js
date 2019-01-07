@@ -17,8 +17,6 @@ export const Wrapper = styled('div')`
   flex-direction: column;
   height: 100vh;
   margin-left: auto;
-  min-width: 270px;
-  max-width: 270px;
   text-align: left;
   @media (max-width: 850px) {
     max-width: 100%;
