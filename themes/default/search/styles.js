@@ -27,7 +27,7 @@ export const Results = styled('div')`
   height: 50vh;
   max-width: 700px;
   max-height: 700px;
-  overflow: scroll;
+  overflow: auto;
   border: 1px solid rgba(0,0,0,.1);
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
   background: #FFF;

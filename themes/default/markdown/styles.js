@@ -6,7 +6,7 @@ export const Wrapper = styled('div')`
   
   a {
     text-decoration: none;
-    color: #5944CC;
+    color: #2b6da4;
   }
   
   h1, h2, h3, h4 {
@@ -40,7 +40,7 @@ export const Wrapper = styled('div')`
   }
 
   pre {
-    overflow-x: scroll;
+    overflow-x: auto;
     background: #FAFAFD !important;
     border-radius: 4px;
     border-radius: 3px;

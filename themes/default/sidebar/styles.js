@@ -46,7 +46,7 @@ export const MenuWrapper = styled('div')`
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: auto;
 
   @media (max-width: 850px) {
     background: #F5F7F9;
@@ -111,8 +111,8 @@ export const NavList = styled(filterProps(Accordion, ['isFirst']))`
     &.active {
       font-weight: 600;
       ${props => props.isFirst && css`
-        color: #6457DF;
-        border-right: 3px solid #6457DF;
+        color: #2b6da4;
+        border-right: 3px solid #2b6da4;
       `}
       :hover {
         opacity: 1;

@@ -14,7 +14,7 @@ export const CustomLogo = styled('div')`
 `
 
 export const GeneratedLogo = styled('div')`
-  color: #6457DF;
+  color: #2b6da4;
   font-size: 1.6rem;
   font-weight: 700;
   text-decoration: none;
